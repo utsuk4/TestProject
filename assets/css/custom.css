@@ -1,0 +1,235 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,300,800,700);
+
+/*Register css*/
+body{
+	background-color:#f1c40f;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+.cont{
+	position: relative;
+}
+h3{
+	color: #FFFFFF;
+	text-align: center;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+#form-cont{
+	background: #702c91;
+	margin: 40px auto;
+	width: 400px;
+}
+
+#form-head{
+	background: #702c91;
+	padding-top: 10px;
+}
+#form-body{
+	background: white;
+	width: 400px;
+	padding-top: 35px;
+	padding-bottom: 5px;
+}
+
+#circle{
+	margin: 5px auto;
+	background-color: #702c91; 
+	height: 50px;
+	width: 50px; 
+	position: relative;
+	border: 2px solid white;
+	border-radius: 50%;
+}
+
+#icon-head{
+	margin-top: 5px;
+	text-align: center;
+	color: #FFFFFF; 
+	font-size:30px;
+}
+
+#icon-body{
+	background-color: #702c91;
+	width: 44px;
+	height: 44px;
+	float: left;
+	color: white;
+	font-size: 1.8em;
+	margin: 0px auto;
+	text-align: center;
+	line-height: 1.5;
+}
+
+input[type='text'],input[type='email'],input[type='password']{
+	background-color: #dfdfdf;
+	border: 0px;
+	padding-left: 7px;
+	height: 42px;
+	width: 290px;
+}
+
+
+#ip-wrapper{
+	background-color: white;
+	/*margin: 0px auto;*/
+	width: 350px;
+	margin: 15px 30px;
+	clear:both;
+	text-align: left;
+}
+
+#p11{
+	color: #702c91;
+	font-style: 20px;
+	text-align: left;
+}
+
+#ip{
+	float: left;
+}
+button{
+	color: white;
+	border: 0px;
+	height: 44px;
+	width: 338px;
+}
+#signup{
+	background: #702c91;
+}
+#text{
+	color: gray;
+	font-size: 10px;
+	text-align: center;
+}
+
+a{
+	color: gray;
+}
+#text2{
+	color: gray;
+	font-size:10px;
+}
+span{
+	color: gray;
+	font-size: 10px;
+	margin-top: 5px
+}
+#head-tail{
+position: absolute;
+margin-left: 195px;
+margin-top: -7px;
+}
+
+
+/*signin css*/
+#form-cont-signin{
+	background: #3498db;
+	margin: 40px auto;
+	width: 400px;
+}
+#form-head-signin{
+	background: #3498db;
+	padding-top: 10px;
+	padding-bottom: 1px;
+}
+#circle-signin{
+	margin: 1px auto;
+	background-color: #3498db; 
+	height: 50px;
+	width: 50px; 
+	position: relative;
+	border: 2px solid white;
+	border-radius: 50%;
+}
+#form-head-signin h1 {
+	color: #FFFFFF;
+	text-align: center;
+	font-weight: 300;
+	margin-top: 6px;
+	margin-bottom: 16px;
+}
+
+#form-body-signin{
+	background: white;
+	width: 400px;
+	padding-top: 35px;
+	padding-bottom: 5px;
+}
+#icon-body-signin{
+	background-color: #3498db;
+	width: 44px;
+	height: 44px;
+	float: left;
+	color: white;
+	font-size: 1.8em;
+	margin: 0px auto;
+	text-align: center;
+	line-height: 1.5;
+
+}
+#forgot-password{
+	float: right;
+	margin-right: 8px;
+}
+#signin{
+	background: #3498db;
+}
+#border-cont{
+	padding-top: 20px;
+	border-width:2px;
+	border-bottom-style: dashed;
+	border-color: gray;
+	width: 337px;
+}
+
+/*forget password*/
+#form-cont-forget{
+	background: #f26122;
+	margin: 40px auto;
+	width: 400px;
+}
+#form-head-forget{
+	background: #f26122;
+	padding-top: 10px;
+	padding-bottom: 1px;
+}
+#circle-forget{
+	margin: 1px auto;
+	background-color: #f26122; 
+	height: 50px;
+	width: 50px; 
+	position: relative;
+	border: 2px solid white;
+	border-radius: 50%;
+}
+#form-head-forget h1 {
+	color: #FFFFFF;
+	text-align: center;
+	font-weight: 300;
+	margin-top: 6px;
+	margin-bottom: 16px;
+}
+
+#icon-body-forget{
+	background-color: #f26122;
+	width: 44px;
+	height: 44px;
+	float: left;
+	color: white;
+	font-size: 1.8em;
+	margin: 0px auto;
+	text-align: center;
+	line-height: 1.5;
+}
+#forget{
+	background: #f26122;
+}
+
+#reset-text{
+	text-align: left;
+	margin-left: 30px;
+	margin-right: 20px;
+	margin-bottom: 16px;
+}
